@@ -4,3 +4,35 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+    --main-background: #fff;
+    --accent-color: #000;
+    --heart-contour: #000;
+    --heart-fill: #ff0000;
+    --shadow: rgb(255, 255, 255, 0.5);
+    --weight-card-title: 700;
+    --weight-card-text: 400;
+    --background-fill: 
+        repeating-linear-gradient(#d3d3d3 0px,  #d3d3d3 2px, 
+            rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px), /*баг с прозрачностью в safari*/
+            repeating-linear-gradient(90deg, #d3d3d3 0px,  #d3d3d3 2px, 
+            rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
+        linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+}
+
+:root.theme-dark {
+    --main-background: #000;
+    --accent-color: #00CC14;
+    --heart-contour: #00CC14;
+    --heart-fill: #ff0000;
+    --shadow: rgb(0, 204, 20, 0.5);
+    --weight-card-title: 785;
+    --weight-card-text: 465;
+    --background-fill: 
+        repeating-linear-gradient(#000 0px,  #000 2px, 
+            rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px), /*баг с прозрачностью в safari*/
+        repeating-linear-gradient(90deg, #000 0px,  #000 2px, 
+            rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+        linear-gradient(180deg, #007f0c, #004306);
+    ;
+}

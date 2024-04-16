@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter', sans-serif;
+    --accent-font: 'Press Start 2P', fantasy;
+    --weight-card-title: 700;
+    --weight-card-text: 400;
+    --main-background: #fff;
+    --accent-color: #000;
+    --shadow: rgb(255, 255, 255, 0.5);
+    --heart-contour: #000;
+    --heart-fill: #ff0000;
+    --background-fill: 
+        repeating-linear-gradient(#d3d3d3 0px,  #d3d3d3 2px, 
+            rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px), /*баг с прозрачностью в safari*/
+            repeating-linear-gradient(90deg, #d3d3d3 0px,  #d3d3d3 2px, 
+            rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
+        linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+
+    /*--logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --cover-image: url(../images/cover-image-dark.png);*/
+  }
