@@ -20,8 +20,8 @@
 
   <body class="page">
     <header class="header">
-      <h1 class="title">&lt;/html&gt;</h1>
-      <h2 class="subtitle">закрывающий тег</h2>
+      <a class="html-link">&lt;/html&gt;</a>
+      <h1 class="title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -31,12 +31,7 @@
             </button>
           </li>
           <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="auto"
-              disabled
-              class="theme-menu__button"
-            >
+            <button type="button" data-theme="auto" disabled class="theme-menu__button">
               Авто
             </button>
           </li>
@@ -49,11 +44,11 @@
       </nav>
     </header>
     <main class="main">
-      <section>
+      <section class="content">
         <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">Фритрек и нулевой спринт: Подготовка к работе</h3>
+              <h2 class="heading">Фритрек и нулевой спринт: Подготовка к работе</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -63,11 +58,11 @@
                 >
               </div>
             <div class="memories">
-              <p class="card__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
+              <p class="card__text">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, <br>возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
               <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -92,19 +87,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">1 спринт: Я — чистый лист</h3>
+              <h2 class="heading">1 спринт: Я — чистый лист</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -118,7 +109,7 @@
               <p class="card__text">Место для ваших воспоминаний о начале первого спринта.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -143,19 +134,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">1 спринт: А если не получится?</h3>
+              <h2 class="heading">1 спринт: А если не получится?</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -169,7 +156,7 @@
               <p class="card__text">Место для ваших воспоминаний об окончании первого спринта.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -194,19 +181,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">2 спринт: Погоня за идеалом</h3>
+              <h2 class="heading">2 спринт: Погоня за идеалом</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -220,7 +203,7 @@
               <p class="card__text">Место для ваших воспоминаний о начале второго спринта.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -245,19 +228,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">2 спринт: О тех, кто рядом</h3>
+              <h2 class="heading">2 спринт: О тех, кто рядом</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -271,7 +250,7 @@
               <p class="card__text"> Место для ваших воспоминаний об окончании второго спринта.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -296,19 +275,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">3 спринт: Обходные стратегии</h3>
+              <h2 class="heading">3 спринт: Обходные стратегии</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -322,7 +297,7 @@
               <p class="card__text">Место для ваших воспоминаний о начале третьего спринта.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -347,19 +322,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">3 спринт: Когда опускаются руки</h3>
+              <h2 class="heading">3 спринт: Когда опускаются руки</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -373,7 +344,7 @@
               <p class="card__text">Место для ваших воспоминаний об окончании третьего спринта.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -398,19 +369,15 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
             </article>
           </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="card-list">
           <li class="card-item">
             <article class="card">
-              <h3 class="heading">«Сейчас я здесь»</h3>
+              <h2 class="heading">«Сейчас я здесь»</h2>
               <div class="image-label">
                 <span class="label">&lt;/html&gt;</span>
                 <img
@@ -424,7 +391,7 @@
               <p class="card__text">Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
             </div>
             <div class="like">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-labelledby="group-like">
                 <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g class="heart">
                     <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18
@@ -449,7 +416,7 @@
 
                   </svg>
               </button>
-              <button class="button card__like-button">
+              <button class="button card__like-button" id="group-like" type="button">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -457,29 +424,29 @@
           </li>
         </ul>
       </section>
-      <div>
+      <div class="diskette">
         <button 
           class="button button-diskette" 
           type="button"
-          onclick="window['dialog-id'].showModal();"
-          aria-controls="dialog-id">
+          onclick="window['keep-memories'].showModal();"
+          aria-controls="keep-memories">
           <svg class="image-diskette" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
-            <use href="svg/floppy.svg#floppy">
+            <use href="svg/floppy.svg#floppy"></use>
           </svg>
           <span class="button__text">Сохранить на память</span>
         </button>
       </div>
-      <dialog>
+      <dialog class="dialog" id="keep-memories">
         <svg class="image-diskette" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
-          <use href="svg/floppy.svg#floppy">
+          <use href="svg/floppy.svg#floppy"></use>
         </svg>
-        <span class="button__text">Вставьте дискету, чтобы продолжить</span>
+        <p class="button__text" class="text-floppy">Вставьте дискету, чтобы продолжить</p>
         <button 
-          class="close-window"
+          class="button close-window"
           type="button"
-          onclick="window['dialog-id'].close();"
-          >
-          OK</button>
+          onclick="window['keep-memories'].close();">
+          <span class="button__text">OK</span>
+          </button>
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
