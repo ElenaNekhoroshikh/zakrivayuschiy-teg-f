@@ -336,7 +336,13 @@
   position: fixed;
   inset: 0;
   min-block-size: 195px;
-} 
+  background-color: var(--main-background);
+  color: var(--accent-color);
+}
+
+.dialog button {
+  border: 2px solid var(--accent-color);
+}
 
 .text-floppy {
   grid-area: text-floppy;
