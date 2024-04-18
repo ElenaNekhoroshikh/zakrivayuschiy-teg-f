@@ -56,10 +56,6 @@
   max-inline-size: 696px;
 }
 
-.content {
-  margin-block-end: 52px;
-}
-
 .html-link {
   font-family: var(--accent-font), fantasy;
   font-weight: var(--weight-card-text), 400;
@@ -165,6 +161,9 @@
 
 .image-label {
   position: relative;
+  aspect-ratio: 1 / 1;
+  min-width: 371px;
+  min-height: 371px;
 }
 
 .label {
@@ -193,8 +192,9 @@
 }
 
 .image {
+  display: block;
   width: 100%;
-  min-height: 375px;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   border-block-start: 2px var(--accent-color) solid;
@@ -234,7 +234,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  transition: transform .5s ease-in-out, color .5s ease-in-out, mix-blend-mode .5s ease-in-out;
+  transition: transform .5s ease-in-out, color .5s ease-in-out;
   transform: scaleX(0);
   transform-origin: left;
 }
@@ -243,11 +243,8 @@
   transform: scaleX(1);
 }
 
-.button:hover {
-  color: var(--main-background);
-}
-
-.button__text:hover {
+.button:hover .button__text {
+  color: var(--accent-inverse-color);
   mix-blend-mode: difference;
 }
 
@@ -315,6 +312,7 @@
   min-inline-size: 306px;
   min-height: 80px;
   margin-block-end: 102px;
+  margin-block-start: 52px;
 }
 
 .image-diskette {
@@ -328,8 +326,9 @@
   align-self: center;
 }
 
-.button-diskette:hover .image-diskette{
+.button-diskette:hover .image-diskette {
   mix-blend-mode: difference;
+  color: var(--accent-inverse-color);
 }
 
 .dialog {
@@ -346,6 +345,7 @@
 
 .text-floppy {
   grid-area: text-floppy;
+  line-height: 21px;
 }
 
 .close-window {
